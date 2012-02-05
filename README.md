@@ -1,12 +1,12 @@
-==Fullcalendar-rails
+# Fullcalendar-rails
 
 Easily setup and use Fullcalendar jquery (1.5.2) with rails 3.1 and greater. The version number 1.5.2 corresponds to the version of Fullcalendar that comes with the gem. 
 
-==Rails Setup
+# Rails Setup
 
 This gem uses the asset pipeline provided by sprockets in rails3.1 and greater.
 
-==Installation
+# Installation
 In your Gemfile, add this line:
 <pre><code>
 gem "fullcalendar-rails"
@@ -21,6 +21,7 @@ bundle install
 rails g fullcalendar:install
 </pre></code>
 
+*This gem is Free as air! so enjoy. For Fullcalendar Jquery, read their license. *
 
 
 
