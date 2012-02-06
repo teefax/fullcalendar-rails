@@ -2,11 +2,11 @@ require 'rails/generators'
 
 module Fullcalendar
   module Generators
-    class InstallGenerator < Rails::Generators::Base
+    class InstallGenerator < ::Rails::Generators::Base
      
       source_root File.expand_path("../templates", __FILE__)
   
-      desc "This generator installs fullcalendar with a default folder layout in app/vendor/assets/javascripts/fullcalendar"
+      desc "This generator installs fullcalendar to the vendor folder and add required lines to application.js and .css in app/assets/*"
                                       
       def inject_fullcalendar
         inject_into_file "app/assets/javascripts/application.js", :before => "//= require_tree" do
