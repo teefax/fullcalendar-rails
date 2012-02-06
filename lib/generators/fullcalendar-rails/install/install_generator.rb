@@ -1,4 +1,4 @@
-
+require 'rails/generators'
 
 module Fullcalendar
   module Generators
@@ -6,7 +6,7 @@ module Fullcalendar
      
       source_root File.expand_path("../templates", __FILE__)
   
-      desc "This generator installs fullcalendar with a default folder layout in app/assets/javascripts/fullcalendar
+      desc "This generator installs fullcalendar with a default folder layout in app/vendor/assets/javascripts/fullcalendar"
                                       
       def inject_fullcalendar
         inject_into_file "app/assets/javascripts/application.js", :before => "//= require_tree" do

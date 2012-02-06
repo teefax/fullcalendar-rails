@@ -1,8 +1,8 @@
-require "fullcalendar-rails/version"
-
 module Fullcalendar
   module Rails
-    class Engine < Rails::Engine
-    end
-  end
+
+    require "fullcalendar-rails/version"
+    require "fullcalendar-rails/engine"
+
+ end
 end
