@@ -18,7 +18,7 @@ bundle install
 </pre></code>
 
 <pre><code>
-rails g fullcalendar:install
+rails g fullcalendar_install 
 </pre></code>
 
 *This gem is Free as air! so enjoy. For Fullcalendar Jquery, read their license. *
