@@ -1,8 +1,7 @@
+require 'rails'
+
 module Fullcalendar
   module Rails
-
-    require "fullcalendar-rails/version"
-    require "fullcalendar-rails/engine"
-
+    require 'fullcalendar-rails/engine' if defined?(RAils)
  end
 end
